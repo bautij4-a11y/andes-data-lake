@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secretos y configuración local
+.env
+*.env
+secrets/
+
+# Datos generados y volúmenes de Docker
+data/
+volumes/
+*.parquet
+*.csv
+
+# Logs
+logs/
+*.log
+
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store
